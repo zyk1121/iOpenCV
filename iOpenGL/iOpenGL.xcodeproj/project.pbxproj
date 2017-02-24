@@ -27,6 +27,21 @@
 		76287EAF1E55E84A00EF0E6A /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 76287EA71E55E84A00EF0E6A /* CC3GLMatrix.m */; };
 		76287EB01E55E84A00EF0E6A /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = 76287EA81E55E84A00EF0E6A /* CC3Kazmath.c */; };
 		76287EB11E55E84A00EF0E6A /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 76287EAC1E55E84A00EF0E6A /* CC3Math.m */; };
+		765843081E59A95B002FAD6D /* iTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765843071E59A95B002FAD6D /* iTestView.m */; };
+		7658430A1E59AA12002FAD6D /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 765843091E59AA12002FAD6D /* tile.png */; };
+		7658431A1E59B12F002FAD6D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7658430C1E59B12F002FAD6D /* 1.jpg */; };
+		7658431B1E59B12F002FAD6D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7658430D1E59B12F002FAD6D /* 2.jpg */; };
+		7658431C1E59B12F002FAD6D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7658430E1E59B12F002FAD6D /* 3.jpg */; };
+		7658431D1E59B12F002FAD6D /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7658430F1E59B12F002FAD6D /* 4.jpg */; };
+		7658431E1E59B12F002FAD6D /* KBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765843111E59B12F002FAD6D /* KBScrollView.m */; };
+		7658431F1E59B12F002FAD6D /* KBScrollView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 765843131E59B12F002FAD6D /* KBScrollView2.m */; };
+		765843201E59B12F002FAD6D /* KBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 765843151E59B12F002FAD6D /* KBViewController.m */; };
+		765843211E59B12F002FAD6D /* route_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 765843161E59B12F002FAD6D /* route_selected.png */; };
+		765843221E59B12F002FAD6D /* UIScrollRollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765843191E59B12F002FAD6D /* UIScrollRollView.m */; };
+		765843281E59B165002FAD6D /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 765843251E59B165002FAD6D /* UIBarButtonItem+Extension.m */; };
+		765843291E59B165002FAD6D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 765843271E59B165002FAD6D /* UIView+Extension.m */; };
+		7658432C1E59D007002FAD6D /* YKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7658432B1E59D007002FAD6D /* YKScrollView.m */; };
+		7658432F1E59DE01002FAD6D /* YKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7658432E1E59DE01002FAD6D /* YKImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +86,30 @@
 		76287EAB1E55E84A00EF0E6A /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
 		76287EAC1E55E84A00EF0E6A /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
 		76287EAD1E55E84A00EF0E6A /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
+		765843061E59A95B002FAD6D /* iTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTestView.h; sourceTree = "<group>"; };
+		765843071E59A95B002FAD6D /* iTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTestView.m; sourceTree = "<group>"; };
+		765843091E59AA12002FAD6D /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
+		7658430C1E59B12F002FAD6D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		7658430D1E59B12F002FAD6D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		7658430E1E59B12F002FAD6D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		7658430F1E59B12F002FAD6D /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		765843101E59B12F002FAD6D /* KBScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBScrollView.h; sourceTree = "<group>"; };
+		765843111E59B12F002FAD6D /* KBScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBScrollView.m; sourceTree = "<group>"; };
+		765843121E59B12F002FAD6D /* KBScrollView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBScrollView2.h; sourceTree = "<group>"; };
+		765843131E59B12F002FAD6D /* KBScrollView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBScrollView2.m; sourceTree = "<group>"; };
+		765843141E59B12F002FAD6D /* KBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBViewController.h; sourceTree = "<group>"; };
+		765843151E59B12F002FAD6D /* KBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBViewController.m; sourceTree = "<group>"; };
+		765843161E59B12F002FAD6D /* route_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_selected.png; sourceTree = "<group>"; };
+		765843181E59B12F002FAD6D /* UIScrollRollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollRollView.h; sourceTree = "<group>"; };
+		765843191E59B12F002FAD6D /* UIScrollRollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollRollView.m; sourceTree = "<group>"; };
+		765843241E59B165002FAD6D /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		765843251E59B165002FAD6D /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		765843261E59B165002FAD6D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		765843271E59B165002FAD6D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7658432A1E59D007002FAD6D /* YKScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKScrollView.h; sourceTree = "<group>"; };
+		7658432B1E59D007002FAD6D /* YKScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKScrollView.m; sourceTree = "<group>"; };
+		7658432D1E59DE01002FAD6D /* YKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKImageView.h; sourceTree = "<group>"; };
+		7658432E1E59DE01002FAD6D /* YKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +144,7 @@
 			children = (
 				76287E7E1E55C87700EF0E6A /* OpenGL */,
 				76287E851E55C8F000EF0E6A /* UIKitMacros.h */,
+				765843091E59AA12002FAD6D /* tile.png */,
 				76287E6A1E55C7C000EF0E6A /* AppDelegate.h */,
 				76287E6B1E55C7C000EF0E6A /* AppDelegate.m */,
 				76287E6D1E55C7C000EF0E6A /* ViewController.h */,
@@ -129,11 +169,14 @@
 		76287E7E1E55C87700EF0E6A /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				7658430B1E59B12F002FAD6D /* KB */,
 				76287EA31E55E84A00EF0E6A /* Cocos3DMathLib */,
 				76287E861E55E7E600EF0E6A /* glues */,
 				76287E931E55E7E600EF0E6A /* OpenGLFirst */,
 				76287E7F1E55C87700EF0E6A /* GLContextManager.h */,
 				76287E801E55C87700EF0E6A /* GLContextManager.m */,
+				765843061E59A95B002FAD6D /* iTestView.h */,
+				765843071E59A95B002FAD6D /* iTestView.m */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -185,6 +228,50 @@
 				76287EAD1E55E84A00EF0E6A /* ccTypes.h */,
 			);
 			path = Cocos3DMathLib;
+			sourceTree = "<group>";
+		};
+		7658430B1E59B12F002FAD6D /* KB */ = {
+			isa = PBXGroup;
+			children = (
+				765843231E59B165002FAD6D /* Category */,
+				7658430C1E59B12F002FAD6D /* 1.jpg */,
+				7658430D1E59B12F002FAD6D /* 2.jpg */,
+				7658430E1E59B12F002FAD6D /* 3.jpg */,
+				7658430F1E59B12F002FAD6D /* 4.jpg */,
+				765843101E59B12F002FAD6D /* KBScrollView.h */,
+				765843111E59B12F002FAD6D /* KBScrollView.m */,
+				765843121E59B12F002FAD6D /* KBScrollView2.h */,
+				765843131E59B12F002FAD6D /* KBScrollView2.m */,
+				765843141E59B12F002FAD6D /* KBViewController.h */,
+				765843151E59B12F002FAD6D /* KBViewController.m */,
+				765843161E59B12F002FAD6D /* route_selected.png */,
+				765843171E59B12F002FAD6D /* UIScrollRollView */,
+				7658432A1E59D007002FAD6D /* YKScrollView.h */,
+				7658432B1E59D007002FAD6D /* YKScrollView.m */,
+				7658432D1E59DE01002FAD6D /* YKImageView.h */,
+				7658432E1E59DE01002FAD6D /* YKImageView.m */,
+			);
+			path = KB;
+			sourceTree = "<group>";
+		};
+		765843171E59B12F002FAD6D /* UIScrollRollView */ = {
+			isa = PBXGroup;
+			children = (
+				765843181E59B12F002FAD6D /* UIScrollRollView.h */,
+				765843191E59B12F002FAD6D /* UIScrollRollView.m */,
+			);
+			path = UIScrollRollView;
+			sourceTree = "<group>";
+		};
+		765843231E59B165002FAD6D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				765843241E59B165002FAD6D /* UIBarButtonItem+Extension.h */,
+				765843251E59B165002FAD6D /* UIBarButtonItem+Extension.m */,
+				765843261E59B165002FAD6D /* UIView+Extension.h */,
+				765843271E59B165002FAD6D /* UIView+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,11 +333,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7658431C1E59B12F002FAD6D /* 3.jpg in Resources */,
 				76287E771E55C7C000EF0E6A /* LaunchScreen.storyboard in Resources */,
 				76287EA11E55E7E600EF0E6A /* SimpleFragment.glsl in Resources */,
 				76287EA21E55E7E600EF0E6A /* SimpleVertex.glsl in Resources */,
 				76287E741E55C7C000EF0E6A /* Assets.xcassets in Resources */,
 				76287E721E55C7C000EF0E6A /* Main.storyboard in Resources */,
+				7658430A1E59AA12002FAD6D /* tile.png in Resources */,
+				7658431B1E59B12F002FAD6D /* 2.jpg in Resources */,
+				7658431D1E59B12F002FAD6D /* 4.jpg in Resources */,
+				7658431A1E59B12F002FAD6D /* 1.jpg in Resources */,
+				765843211E59B12F002FAD6D /* route_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,15 +356,24 @@
 			files = (
 				76287EB01E55E84A00EF0E6A /* CC3Kazmath.c in Sources */,
 				76287E831E55C87700EF0E6A /* GLContextManager.m in Sources */,
+				7658432F1E59DE01002FAD6D /* YKImageView.m in Sources */,
+				765843291E59B165002FAD6D /* UIView+Extension.m in Sources */,
 				76287EA01E55E7E600EF0E6A /* OpenGLViewController.m in Sources */,
 				76287EB11E55E84A00EF0E6A /* CC3Math.m in Sources */,
 				76287EAF1E55E84A00EF0E6A /* CC3GLMatrix.m in Sources */,
 				76287EAE1E55E84A00EF0E6A /* CC3Foundation.m in Sources */,
+				7658432C1E59D007002FAD6D /* YKScrollView.m in Sources */,
 				76287E6F1E55C7C000EF0E6A /* ViewController.m in Sources */,
+				7658431F1E59B12F002FAD6D /* KBScrollView2.m in Sources */,
 				76287E9F1E55E7E600EF0E6A /* OpenGLTestView.m in Sources */,
 				76287E9E1E55E7E600EF0E6A /* glues_registry.c in Sources */,
+				765843221E59B12F002FAD6D /* UIScrollRollView.m in Sources */,
 				76287E6C1E55C7C000EF0E6A /* AppDelegate.m in Sources */,
+				765843081E59A95B002FAD6D /* iTestView.m in Sources */,
+				765843201E59B12F002FAD6D /* KBViewController.m in Sources */,
 				76287E9B1E55E7E600EF0E6A /* glues_mipmap.c in Sources */,
+				765843281E59B165002FAD6D /* UIBarButtonItem+Extension.m in Sources */,
+				7658431E1E59B12F002FAD6D /* KBScrollView.m in Sources */,
 				76287E691E55C7C000EF0E6A /* main.m in Sources */,
 				76287E9C1E55E7E600EF0E6A /* glues_project.c in Sources */,
 				76287E9A1E55E7E600EF0E6A /* glues_error.c in Sources */,

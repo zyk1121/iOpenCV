@@ -10,6 +10,8 @@
 #import "OpenGLViewController.h"
 #import "OpenGLTestView.h"
 #import "UIKitMacros.h"
+#import "iTestView.h"
+#import "KBViewController.h"
 
 @interface ViewController ()
 
@@ -20,8 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    OpenGLTestView *_glView = [[OpenGLTestView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-    [self.view addSubview:_glView];
+//    OpenGLTestView *_glView = [[OpenGLTestView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+//    [self.view addSubview:_glView];
+    iTestView *itestview =  [[iTestView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+        [self.view addSubview:itestview];
 }
 
 
@@ -33,10 +37,10 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [super touchesBegan:touches withEvent:event];
-//    OpenGLViewController *vc = [[OpenGLViewController alloc] init];
-//    [self presentViewController:vc animated:YES completion:^{
-//        
-//    }];
+    KBViewController *vc = [[KBViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:^{
+        
+    }];
 }
 
 
